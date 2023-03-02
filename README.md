@@ -1,2 +1,2 @@
-# validador_cpf
-Este projeto foi desenvolvido para ajudar estudantes, desenvolvedores e programadores em seus estudos.
+# Validador de Cpf
+Neste projeto eu busco ajudar outros desenvolvedores, estudantes e programadores no auxílio de verificação de um número de Cpf.
