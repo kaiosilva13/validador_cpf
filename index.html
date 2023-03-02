@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador de Cpf</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Validador de Cpf</h1>
+    </header>
+    <section id="validador">
+        <form id="cpf">
+        <label for="CPF">CPF: </label>
+        <input type="text"  maxlength="14" id="CPF" 
+        placeholder="Digite um Cpf" onclick="limpa_resultado()" class="Input">
+        <input type="button" value="Validar CPF" onclick="valida_cpf()"
+        id="botao" class="Botao" onmouseenter="muda_cor_botao()" onmouseout="volta_cor_botao()">
+    </form>
+    <br>
+    <div id="res">
+
+    </div>
+    </section>
+    <br>
+
+    <section id="info">
+        <p>
+            O objetivo do Validador de Cpf é auxiliar estudantes, desenvolvedores e programadores que desejem
+            utilizar essa ferramenta como forma de auxílio para seus estudos. A má utilização dessa ferramenta
+            é de pura responsabilidade do usuário.
+        </p>
+    </section>
+    <footer>
+        <p>&copy;kaiosilva13</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

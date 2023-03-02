@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(132, 185, 218);
+}
+#validador{
+    background-color: #ffffff;
+    padding: 60px;
+    border-radius: 10px;
+    width: 450px;
+    margin:auto;
+}
+
+#info{
+    font: normal 12pt Arial ;
+    background-color:#fcf8e3;
+    padding:28px;
+    width: 500px;
+    margin:auto;
+}
+header{
+    font: normal Arial;
+    text-align: center;
+}
+
+.Botao{
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(25, 238, 117);
+    border-color: rgb(45, 247, 132);
+}
+.Input{
+    border-radius: 5px;
+}
+div{
+    color:white;
+    padding: 5px;
+    width: 300px;
+    filter: alpha(opacity=30);
+    opacity: 0.3;
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+    color:black;
+}
