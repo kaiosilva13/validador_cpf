@@ -60,7 +60,7 @@ function valida_cpf(){
             }
         
     }else{
-        alert('Erro de configuração de valor de cpf. O cpf pussuí configuração de 11 digítos: ABC.DEF.GHI-JK.')
+        alert('Erro de configuração de valor de cpf. O cpf possuí configuração de 11 dígitos: ABC.DEF.GHI-JK.')
         valor_input.value = ''
         valor_input.focus()
     } 
